@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methane Reduction Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Methane Reduction Quiz</h1>
+        <p>Answer the following questions to help create your methane roadmap.</p>
+        <div id="question-container">
+            <!-- The questions will appear here -->
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <div id="result-container" style="display:none;">
+        <h1>Final Result</h1>
+        <p>Your total methane reduction score is: <span id="final-score"></span>%</p>
+        <p id="result-message"></p>
+        <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
